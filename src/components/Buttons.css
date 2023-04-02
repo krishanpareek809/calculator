@@ -1,0 +1,52 @@
+.buttons_container_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 452px;
+    border-radius: 16px;
+    margin: 150px 40%;
+    background-color: rgb(243, 239, 239);
+}
+
+.buttons_container_main>input{
+    width: 99%;
+    height: 120px;
+    border: none;
+    border-radius: 16px 16px 0 0;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+
+.buttons_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.buttons_container>button{
+    cursor: pointer;
+    width: 17%;
+    height: 48px;
+    margin: 9px 0;
+    border: none;
+    border-radius: 25px;
+}
+
+.buttons_operator{
+    background-color: rgb(228, 195, 228);
+}
+
+.buttons_result{
+    background-color: rgb(182, 89, 182);
+}
+
+.buttons_clear{
+    background-color: rgb(211, 164, 93);
+}
+
+.buttons_all{
+    background-color: white;
+}
